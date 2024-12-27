@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProniaOnion.Application/1.0.0": {
+        "dependencies": {
+          "ProniaOnion.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProniaOnion.Application.dll": {}
+        }
+      },
+      "ProniaOnion.Domain/1.0.0": {
+        "runtime": {
+          "ProniaOnion.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProniaOnion.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProniaOnion.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
