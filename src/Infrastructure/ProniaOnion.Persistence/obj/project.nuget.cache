@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CS1N4B9ieFk=",
+  "dgSpecHash": "ekhZAZQsPMw=",
   "success": true,
   "projectFilePath": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nicha\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\nicha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
