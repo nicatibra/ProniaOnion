@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ProniaOnion.Domain.Entities;
 
-namespace ProniaOnion.Persistence.Configuration
+namespace ProniaOnion.Persistence.Configurations
 {
     internal class ProductColorConfiguration : IEntityTypeConfiguration<ProductColor>
     {
