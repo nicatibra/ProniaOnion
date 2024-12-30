@@ -20,7 +20,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
 
 
-        public async Task<IEnumerable<GetColorItemDto>> GetAllColorsAsync(int page, int take)
+        public async Task<IEnumerable<GetColorItemDto>> GetAllColorsAsync(int page = 1, int take = 3)
         {
             IEnumerable<Color> colorsDTOs = await _colorRepository
                 .GetAll(skip: (page - 1) * take, take: take)
@@ -82,9 +82,10 @@ namespace ProniaOnion.Persistence.Implementations.Services
                 throw new Exception("Already exists");
 
 
-            color.Name = updateColorDto.Name;
 
-            //color = _mapper.Map<Color>(updateColorDto);
+            color = _mapper.Map(updateColorDto, color);
+
+            //color.Name = updateColorDto.Name;
             //color.Id = id;
             color.ModifiedAt = DateTime.Now;
 

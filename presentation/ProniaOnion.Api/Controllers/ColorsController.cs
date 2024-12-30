@@ -16,7 +16,7 @@ namespace ProniaOnion.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get(int page, int take = 3)
+        public async Task<IActionResult> Get(int page = 1, int take = 3)
         {
             return Ok(await _service.GetAllColorsAsync(page, take));
         }
@@ -47,7 +47,7 @@ namespace ProniaOnion.Api.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromForm] UpdateColorDto updateColorDto)
+        public async Task<IActionResult> Update(int id, UpdateColorDto updateColorDto)
         {
             if (id < 1)
                 return BadRequest();

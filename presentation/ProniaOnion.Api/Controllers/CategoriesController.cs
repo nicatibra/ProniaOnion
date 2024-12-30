@@ -17,7 +17,7 @@ namespace ProniaOnion.Api.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> Get(int page, int take = 3)
+        public async Task<IActionResult> Get(int page = 1, int take = 3)
         {
             return Ok(await _service.GetAllCategoriesAsync(page, take));
         }
@@ -47,7 +47,7 @@ namespace ProniaOnion.Api.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromForm] UpdateCategoryDto updateCategoryDto)
+        public async Task<IActionResult> Update(int id, UpdateCategoryDto updateCategoryDto)
         {
             if (id < 1)
                 return BadRequest();

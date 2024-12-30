@@ -66,9 +66,9 @@
         "IsRequired": true
       },
       {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "updateColorDto",
+        "Type": "ProniaOnion.Application.DTOs.Colors.UpdateColorDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -156,9 +156,9 @@
         "IsRequired": true
       },
       {
-        "Name": "Name",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "updateCategoryDto",
+        "Type": "ProniaOnion.Application.DTOs.Categories.UpdateCategoryDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

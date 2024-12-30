@@ -26,6 +26,7 @@ namespace ProniaOnion.Persistence.ServiceRegistration
             services.AddScoped<IColorService, ColorService>();
 
 
+
             return services;
         }
     }

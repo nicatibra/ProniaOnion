@@ -82,8 +82,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             //category.Name = updateCategoryDto.Name;
 
-            category = _mapper.Map<Category>(updateCategoryDto);
-            category.Id = id;
+            category = _mapper.Map(updateCategoryDto, category);
             category.ModifiedAt = DateTime.Now;
 
 
