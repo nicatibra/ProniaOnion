@@ -2,7 +2,7 @@
 using ProniaOnion.Application.Abstractions.Repositories;
 using ProniaOnion.Application.DTOs.Sizes;
 
-namespace ProniaOnion.Application.Validators
+namespace ProniaOnion.Application.Validators.Create
 {
     public class CreateSizeDtoValidator : AbstractValidator<CreateSizeDto>
     {
