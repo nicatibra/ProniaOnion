@@ -2,7 +2,7 @@
 using ProniaOnion.Application.Abstractions.Repositories;
 using ProniaOnion.Application.DTOs.Tags;
 
-namespace ProniaOnion.Application.Validators
+namespace ProniaOnion.Application.Validators.TagDtoValidator
 {
     public class CreateTagDtoValidator : AbstractValidator<CreateTagDto>
     {
@@ -16,7 +16,7 @@ namespace ProniaOnion.Application.Validators
                 .NotEmpty().WithMessage("Data required.")
                 .MaximumLength(100).WithMessage("Characters should be less than 100")
                 .Matches(@"^[A-Za-z\s0-9]*$").WithMessage("Invalid characters or length");
-            //.MustAsync(CheckNameExistence).WithMessage("Tag name already exists."); 
+            //.MustAsync(CheckNameExistence).WithMessage("Tag name already exists.");
         }
 
         public async Task<bool> CheckNameExistence(string name, CancellationToken token)

@@ -1,14 +1,14 @@
 ﻿using FluentValidation;
 using ProniaOnion.Application.Abstractions.Repositories;
-using ProniaOnion.Application.DTOs.Colors;
+using ProniaOnion.Application.DTOs.Categories;
 
-namespace ProniaOnion.Application.Validators
+namespace ProniaOnion.Application.Validators.CategoryDtoValidator
 {
-    public class CreateColorDtoValidator : AbstractValidator<CreateColorDto>
+    public class CreateCategoryDtoValidator : AbstractValidator<CreateCategoryDto>
     {
-        private readonly IColorRepository _repository;
+        private readonly ICategoryRepository _repository;
 
-        public CreateColorDtoValidator(IColorRepository repository)
+        public CreateCategoryDtoValidator(ICategoryRepository repository)
         {
             _repository = repository;
 
@@ -16,7 +16,7 @@ namespace ProniaOnion.Application.Validators
                 .NotEmpty().WithMessage("Data required.")
                 .MaximumLength(100).WithMessage("Characters should be less than 100")
                 .Matches(@"^[A-Za-z\s0-9]*$").WithMessage("Invalid characters or length");
-            //.MustAsync(CheckNameExistence).WithMessage("Color name already exists.");
+            //.MustAsync(CheckNameExistence).WithMessage("Category name already exists.");
         }
 
         public async Task<bool> CheckNameExistence(string name, CancellationToken token)

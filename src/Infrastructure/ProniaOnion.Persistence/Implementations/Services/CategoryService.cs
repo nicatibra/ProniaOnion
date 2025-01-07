@@ -22,7 +22,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
         public async Task<IEnumerable<GetCategoryItemDto>> GetAllCategoriesAsync(int page, int take)
         {
             IEnumerable<Category> categoriesDTOs = await _categoryRepository
-                .GetAll(skip: (page - 1) * take, take: take)
+                .GetAll(skip: (page - 1) * take, take: take, ignoreQueryFilters: true)
                 .ToListAsync();
 
             #region WithoutMapper
@@ -62,8 +62,6 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
 
             var category = _mapper.Map<Category>(createCategoryDto);
-            category.CreatedAt = DateTime.Now;
-            category.ModifiedAt = DateTime.Now;
 
             await _categoryRepository.AddAsync(category);
 
@@ -83,7 +81,6 @@ namespace ProniaOnion.Persistence.Implementations.Services
             //category.Name = updateCategoryDto.Name;
 
             category = _mapper.Map(updateCategoryDto, category);
-            category.ModifiedAt = DateTime.Now;
 
 
             _categoryRepository.Update(category);
@@ -98,6 +95,20 @@ namespace ProniaOnion.Persistence.Implementations.Services
                 throw new Exception("Not found");
 
             _categoryRepository.Delete(category);
+
+            await _categoryRepository.SaveChangeAsync();
+        }
+
+        public async Task SoftDelete(int id)
+        {
+            Category category = await _categoryRepository.GetByIdAsync(id);
+
+            if (category == null)
+                throw new Exception("Not found");
+
+            category.IsDeleted = true;
+            _categoryRepository.Update(category);
+
             await _categoryRepository.SaveChangeAsync();
         }
     }

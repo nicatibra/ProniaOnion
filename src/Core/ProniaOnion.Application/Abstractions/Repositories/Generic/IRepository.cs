@@ -1,7 +1,7 @@
 ﻿using ProniaOnion.Domain.Entities;
 using System.Linq.Expressions;
 
-namespace ProniaOnion.Application.Abstractions.Repositories.Generic
+namespace ProniaOnion.Application.Abstractions.Repositories
 {
     public interface IRepository<T> where T : BaseEntity, new()
     {
@@ -12,6 +12,7 @@ namespace ProniaOnion.Application.Abstractions.Repositories.Generic
             int take = 0,
             bool isDescending = false,
             bool isTracking = false,
+            bool ignoreQueryFilters = false,
             params string[]? includes
             );
 

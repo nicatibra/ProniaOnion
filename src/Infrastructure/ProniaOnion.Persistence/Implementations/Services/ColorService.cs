@@ -62,9 +62,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             await _colorRepository.AddAsync(new Color
             {
-                Name = creaetColorDto.Name,
-                CreatedAt = DateTime.Now,
-                ModifiedAt = DateTime.Now
+                Name = creaetColorDto.Name
             });
 
             await _colorRepository.SaveChangeAsync();
@@ -87,7 +85,6 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             //color.Name = updateColorDto.Name;
             //color.Id = id;
-            color.ModifiedAt = DateTime.Now;
 
 
             _colorRepository.Update(color);
@@ -104,6 +101,19 @@ namespace ProniaOnion.Persistence.Implementations.Services
                 throw new Exception("Not found");
 
             _colorRepository.Delete(color);
+            await _colorRepository.SaveChangeAsync();
+        }
+
+        public async Task SoftDelete(int id)
+        {
+            Color color = await _colorRepository.GetByIdAsync(id);
+
+            if (color == null)
+                throw new Exception("Not found");
+
+            color.IsDeleted = true;
+            _colorRepository.Update(color);
+
             await _colorRepository.SaveChangeAsync();
         }
     }

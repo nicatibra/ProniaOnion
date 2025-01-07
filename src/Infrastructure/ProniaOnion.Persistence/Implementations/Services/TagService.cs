@@ -62,9 +62,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             await _tagRepository.AddAsync(new Tag
             {
-                Name = creaetTagDto.Name,
-                CreatedAt = DateTime.Now,
-                ModifiedAt = DateTime.Now
+                Name = creaetTagDto.Name
             });
 
             await _tagRepository.SaveChangeAsync();
@@ -87,7 +85,6 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             //tag.Name = updateTagDto.Name;
             //tag.Id = id;
-            tag.ModifiedAt = DateTime.Now;
 
 
             _tagRepository.Update(tag);
@@ -104,6 +101,19 @@ namespace ProniaOnion.Persistence.Implementations.Services
                 throw new Exception("Not found");
 
             _tagRepository.Delete(tag);
+            await _tagRepository.SaveChangeAsync();
+        }
+
+        public async Task SoftDelete(int id)
+        {
+            Tag tag = await _tagRepository.GetByIdAsync(id);
+
+            if (tag == null)
+                throw new Exception("Not found");
+
+            tag.IsDeleted = true;
+            _tagRepository.Update(tag);
+
             await _tagRepository.SaveChangeAsync();
         }
     }
