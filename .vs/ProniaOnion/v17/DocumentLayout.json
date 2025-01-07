@@ -3,116 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\blogs\\getblogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\blogs\\getblogitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\validators\\productdtovalidator\\createproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\validators\\productdtovalidator\\createproductdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\implementations\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\implementations\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\mappingprofiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\mappingprofiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\blogs\\getauthorinblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\blogs\\getauthorinblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\products\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\products\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\blogs\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\blogs\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\products\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\products\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EFD15A-9CA4-47A6-BCF0-7312A549E86F}|src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EFD15A-9CA4-47A6-BCF0-7312A549E86F}|src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj|solutionrelative:src\\core\\proniaonion.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\colors\\getcoloritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\colors\\getcoloritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\abstractions\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\abstractions\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\genreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\genreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\sizes\\updatesizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\sizes\\updatesizedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\relational\\blogtagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\relational\\blogtagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\sizes\\getsizeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\sizes\\getsizeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\mappingprofiles\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\mappingprofiles\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\products\\getproductitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\products\\getproductitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\implementations\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\implementations\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EFD15A-9CA4-47A6-BCF0-7312A549E86F}|src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.domain\\entities\\relational\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EFD15A-9CA4-47A6-BCF0-7312A549E86F}|src\\Core\\ProniaOnion.Domain\\ProniaOnion.Domain.csproj|solutionrelative:src\\core\\proniaonion.domain\\entities\\relational\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\abstractions\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\abstractions\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\contexts\\migrations\\20250107075247_addauthorgenreblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\contexts\\migrations\\20250107075247_addauthorgenreblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\implementations\\repositories\\generic\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\implementations\\repositories\\generic\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\dtos\\authors\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\dtos\\authors\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\presentation\\proniaonion.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013C1AB3-F0EC-4A8F-859B-74DD4EB28F73}|presentation\\ProniaOnion.Api\\ProniaOnion.Api.csproj|solutionrelative:presentation\\proniaonion.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\serviceregistration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\serviceregistration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\validators\\genredtovalidator\\creategenredtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\validators\\genredtovalidator\\creategenredtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\validators\\sizedtovalidator\\createsizedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\validators\\sizedtovalidator\\createsizedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\colorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\colorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\validators\\blogdtovalidator\\createblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\validators\\blogdtovalidator\\createblogdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\core\\proniaonion.application\\validators\\authordtovalidator\\createauthorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9509018-318C-447B-AA1F-086C4BC086BF}|src\\Core\\ProniaOnion.Application\\ProniaOnion.Application.csproj|solutionrelative:src\\core\\proniaonion.application\\validators\\authordtovalidator\\createauthorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|solutionrelative:src\\infrastructure\\proniaonion.persistence\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9DDB355-FB29-46C0-97D9-020DBF1A2D96}|src\\Infrastructure\\ProniaOnion.Persistence\\ProniaOnion.Persistence.csproj|c:\\users\\nicha\\onedrive\\desktop\\codeacademy\\projects\\api\\proniaonion\\src\\infrastructure\\proniaonion.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,11 +74,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 280,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Program.cs",
+              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Program.cs",
+              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T16:12:52.348Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\AppDbContext.cs",
@@ -143,119 +105,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Program.cs",
-              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Program.cs",
-              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T16:12:52.348Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T06:20:21.771Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\BlogService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\BlogService.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\BlogService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\BlogService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:15:13.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAuthorInBlogDto.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetAuthorInBlogDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetAuthorInBlogDto.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetAuthorInBlogDto.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetAuthorInBlogDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:14:00.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetBlogItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetBlogItemDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetBlogItemDto.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetBlogItemDto.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\GetBlogItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:13:29.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateBlogDto.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\CreateBlogDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\CreateBlogDto.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\CreateBlogDto.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Blogs\\CreateBlogDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:13:01.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:12:16.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:12:09.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "presentation\\ProniaOnion.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T22:12:04.838Z",
+              "WhenOpened": "2025-01-07T22:27:25.307Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:30:24.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\CreateProductDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:24:25.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:21:08.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateSizeDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\UpdateSizeDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\UpdateSizeDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\UpdateSizeDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\UpdateSizeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:18:04.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetSizeItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\GetSizeItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\GetSizeItemDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\GetSizeItemDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Sizes\\GetSizeItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:18:03.568Z",
               "EditorCaption": ""
             },
             {
@@ -264,233 +188,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BlogProfile.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\BlogProfile.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\BlogProfile.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\BlogProfile.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\BlogProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:57:49.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\GenreService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\GenreService.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\GenreService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\GenreService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:55:31.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250107075247_AddAuthorGenreBlog.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\Migrations\\20250107075247_AddAuthorGenreBlog.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\Migrations\\20250107075247_AddAuthorGenreBlog.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\Migrations\\20250107075247_AddAuthorGenreBlog.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Contexts\\Migrations\\20250107075247_AddAuthorGenreBlog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:52:47.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:51:53.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GetAuthorDto.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Authors\\GetAuthorDto.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Authors\\GetAuthorDto.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Authors\\GetAuthorDto.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Authors\\GetAuthorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:51:48.638Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCsAAAArAAAAAAAAAA==",
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\Entities\\Relational\\ProductColor.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Domain\\Entities\\Relational\\ProductColor.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Domain\\Entities\\Relational\\ProductColor.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Domain\\Entities\\Relational\\ProductColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:50:14.495Z"
+              "WhenOpened": "2025-01-07T23:14:55.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BlogsController.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\BlogsController.cs",
-              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Controllers\\BlogsController.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\BlogsController.cs",
-              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Controllers\\BlogsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GetProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:48:02.788Z"
+              "WhenOpened": "2025-01-07T23:04:33.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "presentation\\ProniaOnion.Api\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\presentation\\ProniaOnion.Api\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "presentation\\ProniaOnion.Api\\Controllers\\AuthorsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCEAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CreateProductDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\ProductDtoValidator\\CreateProductDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Validators\\ProductDtoValidator\\CreateProductDtoValidator.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\ProductDtoValidator\\CreateProductDtoValidator.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Validators\\ProductDtoValidator\\CreateProductDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:43:49.196Z"
+              "WhenOpened": "2025-01-07T22:59:57.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetColorItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Colors\\GetColorItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Colors\\GetColorItemDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Colors\\GetColorItemDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Colors\\GetColorItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T22:48:19.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthorProfile.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\AuthorProfile.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\AuthorProfile.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\AuthorProfile.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\AuthorProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\MappingProfiles\\ProductProfile.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\MappingProfiles\\ProductProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAewBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:43:14.04Z",
+              "WhenOpened": "2025-01-07T22:38:57.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ServiceRegistration\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\ServiceRegistration\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\ServiceRegistration\\ServiceRegistration.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\ServiceRegistration\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "GetProductItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductItemDto.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductItemDto.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\DTOs\\Products\\GetProductItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:43:08.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BlogTagConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\Relational\\BlogTagConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\Relational\\BlogTagConfiguration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\Relational\\BlogTagConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\Relational\\BlogTagConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:42:44.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CreateSizeDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\SizeDtoValidator\\CreateSizeDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Validators\\SizeDtoValidator\\CreateSizeDtoValidator.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\SizeDtoValidator\\CreateSizeDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Validators\\SizeDtoValidator\\CreateSizeDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:42:32.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CreateGenreDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\GenreDtoValidator\\CreateGenreDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Validators\\GenreDtoValidator\\CreateGenreDtoValidator.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\GenreDtoValidator\\CreateGenreDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Validators\\GenreDtoValidator\\CreateGenreDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:42:22.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenreConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\GenreConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\GenreConfiguration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\GenreConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\GenreConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:40:50.668Z",
+              "WhenOpened": "2025-01-07T22:36:51.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CreateBlogDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\BlogDtoValidator\\CreateBlogDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Validators\\BlogDtoValidator\\CreateBlogDtoValidator.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\BlogDtoValidator\\CreateBlogDtoValidator.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Validators\\BlogDtoValidator\\CreateBlogDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
+              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Abstractions\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:40:07.684Z"
+              "WhenOpened": "2025-01-07T22:24:41.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BlogConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\BlogConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\BlogConfiguration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\BlogConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\BlogConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Implementations\\Services\\ProductService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAACnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:39:31.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CreateAuthorValidator.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\AuthorDtoValidator\\CreateAuthorValidator.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ProniaOnion.Application\\Validators\\AuthorDtoValidator\\CreateAuthorValidator.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Core\\ProniaOnion.Application\\Validators\\AuthorDtoValidator\\CreateAuthorValidator.cs",
-              "RelativeToolTip": "src\\Core\\ProniaOnion.Application\\Validators\\AuthorDtoValidator\\CreateAuthorValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:39:06.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\AuthorConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\AuthorConfiguration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\AuthorConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\AuthorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:38:16.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ColorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ColorConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ColorConfiguration.cs",
-              "ToolTip": "C:\\Users\\nicha\\OneDrive\\Desktop\\CodeAcademy\\Projects\\API\\ProniaOnion\\src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ColorConfiguration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\ProniaOnion.Persistence\\Configurations\\ColorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T07:37:23.877Z"
+              "WhenOpened": "2025-01-07T22:24:16.381Z",
+              "EditorCaption": ""
             }
           ]
         }

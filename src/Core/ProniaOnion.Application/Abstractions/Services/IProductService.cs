@@ -1,7 +1,11 @@
-﻿namespace ProniaOnion.Application.Abstractions.Services
+﻿using ProniaOnion.Application.DTOs.Products;
+
+namespace ProniaOnion.Application.Abstractions.Services
 {
     public interface IProductService
     {
-        //Task<Enumerable<Get>>
+        Task<IEnumerable<GetProductItemDto>> GetAllProductsAsync(int page, int take);
+
+        Task<GetProductDto> GetProductByIdAsync(int id);
     }
 }

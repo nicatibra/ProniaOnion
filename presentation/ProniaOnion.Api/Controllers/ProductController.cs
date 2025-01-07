@@ -15,6 +15,20 @@ namespace ProniaOnion.Api.Controllers
             _service = service;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Get(int page = 1, int take = 8)
+        {
+            return Ok(await _service.GetAllProductsAsync(page, take));
+        }
 
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            if (id < 1)
+                return BadRequest("Invalid id");
+
+            return Ok(await _service.GetProductByIdAsync(id));
+        }
     }
 }
