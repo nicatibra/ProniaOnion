@@ -12,7 +12,7 @@ namespace ProniaOnion.Api.Controllers
 
         public ProductController(IProductService service)
         {
-            _service = service
+            _service = service;
         }
 
 

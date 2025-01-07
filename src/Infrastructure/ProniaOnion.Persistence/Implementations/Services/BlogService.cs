@@ -22,7 +22,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
         public async Task<IEnumerable<GetBlogItemDto>> GetAllBlogsAsync(int page, int take)
         {
             IEnumerable<Blog> blogs = await _repository
-                .GetAll(skip: (page - 1) * take, take: take)
+                .GetAll(skip: (page - 1) * take, take: take, includes: nameof(Blog.Author))
                 .ToListAsync();
 
             return _mapper.Map<IEnumerable<GetBlogItemDto>>(blogs);

@@ -2,6 +2,6 @@
 {
     public interface IProductService
     {
-        Task<Enumerable<Get>> +++++++++++++++++++++++++
+        //Task<Enumerable<Get>>
     }
 }

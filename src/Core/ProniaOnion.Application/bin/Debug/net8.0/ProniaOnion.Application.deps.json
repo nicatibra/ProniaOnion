@@ -76,7 +76,10 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "ProniaOnion.Domain/1.0.0": {
         "runtime": {
-          "ProniaOnion.Domain.dll": {}
+          "ProniaOnion.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

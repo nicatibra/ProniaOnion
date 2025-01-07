@@ -239,7 +239,7 @@
         "IsRequired": false
       },
       {
-        "Name": "GenreIds",
+        "Name": "GenreId",
         "Type": "System.Int32",
         "IsRequired": false
       }

@@ -1,5 +1,6 @@
-﻿namespace ProniaOnion.Application.DTOs.Blogs
-{
-    public record GetBlogItemDto(int Id, string Title, string Article, string Image, string Author, string Genre);
+﻿using ProniaOnion.Application.DTOs.Tags;
 
+namespace ProniaOnion.Application.DTOs.Blogs
+{
+    public record GetBlogItemDto(int Id, string Title, string Article, string Image, GetAuthorInBlogDto Author, GetTagItemDto Tag);
 }
