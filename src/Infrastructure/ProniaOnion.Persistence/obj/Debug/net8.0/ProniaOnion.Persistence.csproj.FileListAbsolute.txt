@@ -18,23 +18,3 @@ C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrast
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.pdb
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.genruntimeconfig.cache
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ref\ProniaOnion.Persistence.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Persistence.deps.json
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Persistence.runtimeconfig.json
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Persistence.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Persistence.pdb
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Application.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Domain.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Application.pdb
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\bin\Debug\net8.0\ProniaOnion.Domain.pdb
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.csproj.AssemblyReference.cache
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.AssemblyInfoInputs.cache
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.AssemblyInfo.cs
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.csproj.CoreCompileInputs.cache
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.sourcelink.json
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.csproj.CopyComplete
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\refint\ProniaOnion.Persistence.dll
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.pdb
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ProniaOnion.Persistence.genruntimeconfig.cache
-C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\ProniaOnion.Persistence\obj\Debug\net8.0\ref\ProniaOnion.Persistence.dll

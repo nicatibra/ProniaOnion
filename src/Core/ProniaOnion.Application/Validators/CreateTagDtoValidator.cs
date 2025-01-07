@@ -2,13 +2,13 @@
 using ProniaOnion.Application.Abstractions.Repositories;
 using ProniaOnion.Application.DTOs.Tags;
 
-namespace ProniaOnion.Application.Validators.Update
+namespace ProniaOnion.Application.Validators
 {
-    public class UpdateTagDtoValidator : AbstractValidator<UpdateTagDto>
+    public class CreateTagDtoValidator : AbstractValidator<CreateTagDto>
     {
         private readonly ITagRepository _repository;
 
-        public UpdateTagDtoValidator(ITagRepository repository)
+        public CreateTagDtoValidator(ITagRepository repository)
         {
             _repository = repository;
 
@@ -24,5 +24,4 @@ namespace ProniaOnion.Application.Validators.Update
             return !await _repository.AnyAsync(t => t.Name == name);
         }
     }
-
 }
