@@ -11,10 +11,5 @@
         public DateTime CreatedAt { get; set; }
 
         public DateTime ModifiedAt { get; set; }
-
-        protected BaseEntity()
-        {
-            CreatedBy = "Admin";
-        }
     }
 }

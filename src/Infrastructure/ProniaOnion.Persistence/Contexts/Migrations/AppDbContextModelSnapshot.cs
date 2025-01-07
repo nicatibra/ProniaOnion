@@ -22,6 +22,107 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("ProfileImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Author");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Blog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Article")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.HasIndex("GenreId");
+
+                    b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.BlogTag", b =>
+                {
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BlogId", "TagId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("BlogsTags");
+                });
+
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -86,6 +187,40 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
                         .IsUnique();
 
                     b.ToTable("Colors");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Genre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Genres");
                 });
 
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Product", b =>
@@ -246,6 +381,44 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
                     b.ToTable("Tags");
                 });
 
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Blog", b =>
+                {
+                    b.HasOne("ProniaOnion.Domain.Entities.Author", "Author")
+                        .WithMany("Blogs")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProniaOnion.Domain.Entities.Genre", "Genre")
+                        .WithMany("Blogs")
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Author");
+
+                    b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.BlogTag", b =>
+                {
+                    b.HasOne("ProniaOnion.Domain.Entities.Blog", "Blog")
+                        .WithMany("BlogTags")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ProniaOnion.Domain.Entities.Tag", "Tag")
+                        .WithMany("BlogTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Product", b =>
                 {
                     b.HasOne("ProniaOnion.Domain.Entities.Category", "Category")
@@ -314,6 +487,16 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Author", b =>
+                {
+                    b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Blog", b =>
+                {
+                    b.Navigation("BlogTags");
+                });
+
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Products");
@@ -322,6 +505,11 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Color", b =>
                 {
                     b.Navigation("ProductColors");
+                });
+
+            modelBuilder.Entity("ProniaOnion.Domain.Entities.Genre", b =>
+                {
+                    b.Navigation("Blogs");
                 });
 
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Product", b =>
@@ -336,6 +524,8 @@ namespace ProniaOnion.Persistence.Contexts.Migrations
 
             modelBuilder.Entity("ProniaOnion.Domain.Entities.Tag", b =>
                 {
+                    b.Navigation("BlogTags");
+
                     b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618

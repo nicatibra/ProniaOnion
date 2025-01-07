@@ -11,6 +11,10 @@ namespace ProniaOnion.Application.ServiceRegistration
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+
+
             services.AddFluentValidationAutoValidation()
                 .AddFluentValidationClientsideAdapters()
                 .AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());

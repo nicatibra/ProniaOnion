@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProniaOnion.Application.Abstractions.Repositories.Generic;
+using ProniaOnion.Application.Abstractions.Repositories;
 using ProniaOnion.Domain.Entities;
 using ProniaOnion.Persistence.Contexts;
 using System.Linq.Expressions;
@@ -24,6 +24,7 @@ namespace ProniaOnion.Persistence.Implementations.Repositories
             int take = 0,
             bool isDescending = false,
             bool isTracking = false,
+            bool ignoreQueryFilters = false,
             params string[]? includes
             )
         {
@@ -46,6 +47,9 @@ namespace ProniaOnion.Persistence.Implementations.Repositories
             if (take != 0)
                 query = query.Take(take);
 
+
+            if (ignoreQueryFilters)
+                query = query.IgnoreQueryFilters();
 
             return isTracking ? query : query.AsNoTracking();
         }

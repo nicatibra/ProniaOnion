@@ -62,9 +62,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             await _sizeRepository.AddAsync(new Size
             {
-                Name = creaetSizeDto.Name,
-                CreatedAt = DateTime.Now,
-                ModifiedAt = DateTime.Now
+                Name = creaetSizeDto.Name
             });
 
             await _sizeRepository.SaveChangeAsync();
@@ -87,7 +85,6 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             //size.Name = updateSizeDto.Name;
             //size.Id = id;
-            size.ModifiedAt = DateTime.Now;
 
 
             _sizeRepository.Update(size);
@@ -104,6 +101,19 @@ namespace ProniaOnion.Persistence.Implementations.Services
                 throw new Exception("Not found");
 
             _sizeRepository.Delete(size);
+            await _sizeRepository.SaveChangeAsync();
+        }
+
+        public async Task SoftDelete(int id)
+        {
+            Size size = await _sizeRepository.GetByIdAsync(id);
+
+            if (size == null)
+                throw new Exception("Not found");
+
+            size.IsDeleted = true;
+            _sizeRepository.Update(size);
+
             await _sizeRepository.SaveChangeAsync();
         }
     }

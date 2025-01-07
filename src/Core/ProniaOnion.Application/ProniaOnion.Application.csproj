@@ -17,4 +17,8 @@
     <ProjectReference Include="..\ProniaOnion.Domain\ProniaOnion.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Validators\ProductDtoValidator\" />
+  </ItemGroup>
+
 </Project>
