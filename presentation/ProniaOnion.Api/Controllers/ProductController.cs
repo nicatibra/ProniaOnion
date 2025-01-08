@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProniaOnion.Application.Abstractions.Services;
+using ProniaOnion.Application.DTOs.Products;
 
 namespace ProniaOnion.Api.Controllers
 {
@@ -29,6 +30,23 @@ namespace ProniaOnion.Api.Controllers
                 return BadRequest("Invalid id");
 
             return Ok(await _service.GetProductByIdAsync(id));
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Post([FromForm] CreateProductDto productDto)
+        {
+            await _service.CreateProductAsync(productDto);
+            return StatusCode(StatusCodes.Status201Created);
+        }
+
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, UpdateProductDto updateProductDto)
+        {
+            if (id < 1) return BadRequest("Invalid id");
+            await _service.UpdateProductAsync(id, updateProductDto);
+            return NoContent();
         }
     }
 }
