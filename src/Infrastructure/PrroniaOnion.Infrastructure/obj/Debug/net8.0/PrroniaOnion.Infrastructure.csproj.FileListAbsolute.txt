@@ -10,3 +10,15 @@ C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrast
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\refint\PrroniaOnion.Infrastructure.dll
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.pdb
 C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\ref\PrroniaOnion.Infrastructure.dll
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\bin\Debug\net8.0\PrroniaOnion.Infrastructure.deps.json
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\bin\Debug\net8.0\PrroniaOnion.Infrastructure.dll
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\bin\Debug\net8.0\PrroniaOnion.Infrastructure.pdb
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.sourcelink.json
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.dll
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\refint\PrroniaOnion.Infrastructure.dll
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\PrroniaOnion.Infrastructure.pdb
+C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Infrastructure\PrroniaOnion.Infrastructure\obj\Debug\net8.0\ref\PrroniaOnion.Infrastructure.dll
