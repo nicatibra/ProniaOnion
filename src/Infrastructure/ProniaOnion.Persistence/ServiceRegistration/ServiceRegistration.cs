@@ -1,11 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ProniaOnion.Application.Abstractions.Repositories;
 using ProniaOnion.Application.Abstractions.Services;
+using ProniaOnion.Domain.Entities;
 using ProniaOnion.Persistence.Contexts;
 using ProniaOnion.Persistence.Implementations.Repositories;
 using ProniaOnion.Persistence.Implementations.Services;
+using System.Reflection;
 
 namespace ProniaOnion.Persistence.ServiceRegistration
 {
@@ -14,7 +17,23 @@ namespace ProniaOnion.Persistence.ServiceRegistration
         public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(opt =>
-            opt.UseSqlServer(configuration.GetConnectionString("MSSQL")));
+                opt.UseSqlServer(configuration.GetConnectionString("MSSQL"),
+                //Avtomatiok Persistence-de migration olmasi ucun
+                migration => migration.MigrationsAssembly(Assembly.GetExecutingAssembly().FullName)
+                ));
+
+            services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireNonAlphanumeric = false;
+
+                opt.User.RequireUniqueEmail = true;
+
+                opt.Lockout.AllowedForNewUsers = true;
+                opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(3);
+                opt.Lockout.MaxFailedAccessAttempts = 3;
+            }
+            ).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
 
             services.AddScoped<IProductRepository, ProductRepository>();
@@ -34,6 +53,7 @@ namespace ProniaOnion.Persistence.ServiceRegistration
             services.AddScoped<IAuthorService, AuthorService>();
             services.AddScoped<IBlogService, BlogService>();
             services.AddScoped<IGenreService, GenreService>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
 
 
             return services;

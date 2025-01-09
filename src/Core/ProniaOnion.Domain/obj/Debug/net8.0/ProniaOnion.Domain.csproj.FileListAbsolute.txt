@@ -22,3 +22,4 @@ C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Core\ProniaOnion.Domain\obj\Debu
 C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Core\ProniaOnion.Domain\obj\Debug\net8.0\refint\ProniaOnion.Domain.dll
 C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Core\ProniaOnion.Domain\obj\Debug\net8.0\ProniaOnion.Domain.pdb
 C:\Users\II novbe\Desktop\Nicat\ProniaOnion\src\Core\ProniaOnion.Domain\obj\Debug\net8.0\ref\ProniaOnion.Domain.dll
+C:\Users\nicha\OneDrive\Desktop\CodeAcademy\Projects\API\ProniaOnion\src\Core\ProniaOnion.Domain\obj\Debug\net8.0\ProniaOnion.Domain.csproj.AssemblyReference.cache

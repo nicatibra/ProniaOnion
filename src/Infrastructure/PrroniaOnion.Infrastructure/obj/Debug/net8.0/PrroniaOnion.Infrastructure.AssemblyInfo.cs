@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrroniaOnion.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b2a7c49ab938e5687c2c5486d36daf2c7e0634")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad92c0a844a1d3082d0e8a403a526fa7fd3386b")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("PrroniaOnion.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrroniaOnion.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
