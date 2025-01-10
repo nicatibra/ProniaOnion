@@ -1,3 +1,4 @@
 .vs
 ./bin
 ./obj
+/src/Infrastructure/ProniaOnion.Persistence/obj
