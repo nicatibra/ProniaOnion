@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ProniaOnion.Domain.Entities;
 using ProniaOnion.Persistence.Common;
 using System.Reflection;
 
 namespace ProniaOnion.Persistence.Contexts
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<AppUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> opt) : base(opt) { }
 
@@ -36,6 +37,8 @@ namespace ProniaOnion.Persistence.Contexts
         {
             modelBuilder.ApplyQueryFilters();
 
+
+            //Yazdigmiz butun configurations avtomatik apply olunur
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
 
